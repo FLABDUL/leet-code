@@ -1,7 +1,7 @@
 package problems.graph_general.surrounding_regions;
 
 import java.util.Arrays;
-
+//neetcode https://www.youtube.com/watch?v=9z2BunfoZ5Y
 public class SurroundingRegionsLogger {
     public static void main(String[] args) {
         char[][] board = {
@@ -42,7 +42,7 @@ public class SurroundingRegionsLogger {
 
         System.out.println("Starting DFS on border 'O's...");
         // Go through the first and last columns
-        for (int i = 0; i < m; i++) {
+        for (int i = 0; i < m; i++) {//not needed to use dfs why why not
             dfs(board, i, 0);
             dfs(board, i, n - 1);
         }
